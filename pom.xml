@@ -12,7 +12,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>16</maven.compiler.source>
         <maven.compiler.target>16</maven.compiler.target>
-        <fxgl.version>11.15</fxgl.version>
+        <fxgl.version>11.16</fxgl.version>
         <javafx.plugin.version>0.0.6</javafx.plugin.version>
         <compiler.plugin.version>3.8.1</compiler.plugin.version>
         <main.class>entity.builder/com.whitewoodcity.Main</main.class>
