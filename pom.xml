@@ -10,9 +10,9 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>16</maven.compiler.source>
-        <maven.compiler.target>16</maven.compiler.target>
-        <fxgl.version>11.16</fxgl.version>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <fxcity.version>0.0.6</fxcity.version>
         <javafx.plugin.version>0.0.6</javafx.plugin.version>
         <compiler.plugin.version>3.8.1</compiler.plugin.version>
         <main.class>entity.builder/com.whitewoodcity.Main</main.class>
@@ -20,9 +20,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.github.almasb</groupId>
-            <artifactId>fxgl</artifactId>
-            <version>${fxgl.version}</version>
+            <groupId>io.github.chengenzhao</groupId>
+            <artifactId>fxcity</artifactId>
+            <version>${fxcity.version}</version>
         </dependency>
     </dependencies>
 
@@ -39,7 +39,6 @@
                 <version>${javafx.plugin.version}</version>
                 <configuration>
                     <stripDebug>true</stripDebug>
-                    <compress>2</compress>
                     <noHeaderFiles>true</noHeaderFiles>
                     <noManPages>true</noManPages>
                     <launcher>EntityBuilder</launcher>
